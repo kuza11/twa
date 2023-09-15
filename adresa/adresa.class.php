@@ -1,6 +1,5 @@
 
 <?php
-require_once("db.php");
 
 class adresa
 {
@@ -10,7 +9,7 @@ class adresa
      */
     public function __construct()
     {
-        include_once "db_asw.php";
+        include_once "db.php";
         $dsn = "mysql:host=localhost;dbname=$dbname;port=3336";
         $options = array(
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
