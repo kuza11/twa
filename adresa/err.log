@@ -1,0 +1,1 @@
+Connection failed table okres: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'obec_kod' in 'field list'
